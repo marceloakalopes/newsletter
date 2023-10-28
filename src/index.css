@@ -1,25 +1,25 @@
 :root {
-  --clr-primary: 	hsl(50, 100%, 53%);
-  --clr-secondary: 	hsl(0, 0%, 85%);
-  --clr-specific: 	hsl(0, 0%, 42%);
+  --clr-primary: hsl(50, 100%, 53%);
+  --clr-secondary: hsl(0, 0%, 85%);
+  --clr-specific: hsl(0, 0%, 42%);
 
-  --ff-header: 'DM Serif Display', serif;
-  --ff-paragraph: 'DM Sans', sans-serif;
-  --ff-pacific: 'Pacifico', cursive;
+  --ff-header: "DM Serif Display", serif;
+  --ff-paragraph: "DM Sans", sans-serif;
+  --ff-pacific: "Pacifico", cursive;
 
   --fw-regular: 400;
-  --fw-light: 300; 
-
+  --fw-light: 300;
 }
 
-body{ 
+body {
   margin: 0;
   border: 0;
   padding: 0;
   height: 100vh;
 }
 
-h1, p {
+h1,
+p {
   margin: 0;
   border: 0;
   padding: 0;
@@ -101,7 +101,7 @@ input[type="email"] {
 }
 
 input[type="email"]:focus {
-  outline: none ;
+  outline: none;
 }
 
 ::placeholder {
@@ -117,7 +117,7 @@ input[type="email"]:focus {
 .form {
   display: grid;
   grid-template-columns: 1fr 90px;
-  gap: .5rem
+  gap: 0.5rem;
 }
 
 .form button {
@@ -130,7 +130,7 @@ input[type="email"]:focus {
   height: 35px;
 }
 
-.footer{
+.footer {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -142,48 +142,40 @@ input[type="email"]:focus {
   font-size: 12px;
 }
 
-
-@media (max-width:50rem) {
-    .container {
-      grid-template-columns: 1fr;
-    }
-
-    .header {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    } 
-
-    .logo, .newsletter {
-      display: flex;
-      align-items: center;
-      padding: 0;
-
-    }
-
-    .logo img {
-      height: 100px;
-    }
-
-    .newsletter h1 {
-      font-size: 24px;
-    }
-
-    .text h1 {
-      font-size: 24px;
-    }
-
-    .fit p {
-      font-size: 14px;
-    }
-
-    .fit {
-      width: 316px;
-    }
-
-
-
-
-
-
-
+@media (max-width: 50rem) {
+  .container {
+    grid-template-columns: 1fr;
   }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo,
+  .newsletter {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+
+  .newsletter h1 {
+    font-size: 24px;
+  }
+
+  .text h1 {
+    font-size: 24px;
+  }
+
+  .fit p {
+    font-size: 14px;
+  }
+
+  .fit {
+    width: 316px;
+  }
+}

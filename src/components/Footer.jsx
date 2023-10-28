@@ -1,13 +1,13 @@
-
 function Footer() {
   return (
     <>
-    <footer>
+      <footer>
         <div className="footer">
-            <p>© lopestalks 2023 • Todos os direitos reservados</p>
-        </div>         
-    </footer></>
-  )
+          <p>© lopestalks 2023 • Todos os direitos reservados</p>
+        </div>
+      </footer>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;

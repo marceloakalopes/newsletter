@@ -1,31 +1,36 @@
-
 function Main() {
   return (
     <>
-    <main>
+      <main>
         <div className="container">
-            <div className="even-columns">
-                <div className="even-columns | text">
-                         <h1>para uma vida mais produtiva</h1>
-                    <div className="fit">
-                        <p>o melhor conteúdo sobre foco, produtivide e alta performance de graça toda semana na sua caixa de entrada</p>
-                        <label htmlFor="email">Email *</label>
-                        <div className="form">         
-                            <input placeholder="seu melhor e-mail" type="email" name="email" id="email" />
-                            <button>Enviar</button> 
-                        </div>
-                    </div>
-                    
+          <div className="even-columns">
+            <div className="even-columns | text">
+              <h1>para uma vida mais produtiva</h1>
+              <div className="fit">
+                <p>
+                  o melhor conteúdo sobre foco, produtivide e alta performance
+                  de graça toda semana na sua caixa de entrada
+                </p>
+                <label htmlFor="email">Email *</label>
+                <div className="form">
+                  <input
+                    placeholder="seu melhor e-mail"
+                    type="email"
+                    name="email"
+                    id="email"
+                  />
+                  <button>Enviar</button>
                 </div>
-                
+              </div>
             </div>
-            <div className="even-columns | avatar">
-                <img src="src\assets\avatar.png" alt="" />
-            </div>
+          </div>
+          <div className="even-columns | avatar">
+            <img src="public\avatar.png" alt="" />
+          </div>
         </div>
-    </main>
+      </main>
     </>
-  )
+  );
 }
 
-export default Main
+export default Main;
