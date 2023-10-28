@@ -4,7 +4,7 @@ function Header() {
       <header>
         <div className="container | header">
           <div className="logo">
-            <img src="public\new-logo-removebg-preview.png" alt="" />
+            <img src="public\new-logo-removebg-preview.webp" alt="" />
           </div>
           <div className="newsletter">
             <h1>Newsletter</h1>
