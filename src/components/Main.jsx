@@ -25,7 +25,7 @@ function Main() {
             </div>
           </div>
           <div className="even-columns | avatar">
-            <img src="public\avatar.webp" alt="" />
+            <img src="\avatar.webp" alt="" />
           </div>
         </div>
       </main>
