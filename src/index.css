@@ -1,0 +1,56 @@
+:root {
+  --clr-primary: 	hsl(50, 100%, 53%);
+
+  --ff-header: 'DM Serif Display', serif;
+  --ff-paragraph: 'DM Sans', sans-serif;
+  --ff-pacific: 'Pacifico', cursive;
+
+  --fw-regular: 400;
+  --fw-light: 300; 
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.even-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  height: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 1rem;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 1rem;
+}
+
+.newsletter h1 {
+  font-family: var(--ff-pacific);
+  font-weight: var(--fw-light);
+}
+
+.avatar img {
+  height: 450px;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
