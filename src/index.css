@@ -1,5 +1,7 @@
 :root {
   --clr-primary: 	hsl(50, 100%, 53%);
+  --clr-secondary: 	hsl(0, 0%, 85%);
+  --clr-specific: 	hsl(0, 0%, 42%);
 
   --ff-header: 'DM Serif Display', serif;
   --ff-paragraph: 'DM Sans', sans-serif;
@@ -8,6 +10,23 @@
   --fw-regular: 400;
   --fw-light: 300; 
 
+}
+
+body{ 
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+main {
+  padding: 3rem 0.1rem 4rem 0.1rem;
 }
 
 .container {
@@ -49,8 +68,78 @@
   height: 450px;
 }
 
-.footer {
+.fit {
+  width: 464px;
+}
+
+.text h1 {
+  font-family: var(--ff-header);
+  font-weight: var(--fw-regular);
+  font-size: 35px;
+  white-space: nowrap;
+}
+
+.text p {
+  position: relative;
+  font-family: var(--ff-paragraph);
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  margin: 1rem 0 1rem 0;
+}
+
+label {
+  font-family: var(--ff-header);
+}
+
+input[type="email"] {
+  background-color: var(--clr-secondary);
+  border-radius: 10px;
+  border: 0;
+  height: 35px;
+  caret: 0 0 0 2px;
+  padding: 0 20px 0 30px;
+}
+
+input[type="email"]:focus {
+  outline: none ;
+}
+
+::placeholder {
+  font-family: var(--clr-secondary);
+  font-weight: var(--fw-regular);
+  color: var(--clr-specific);
+}
+
+::placeholder:target {
+  display: none;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  gap: .5rem
+}
+
+.form button {
+  background-color: var(--clr-primary);
+  color: white;
+  font-family: var(--ff-paragraph);
+  font-weight: var(--fw-regular);
+  border: 0;
+  border-radius: 10px;
+  height: 35px;
+}
+
+.footer{
   display: grid;
   justify-content: center;
   align-items: center;
 }
+
+
+/* @media (max-width:50rem) {
+
+  }
+}
+
+*/ 

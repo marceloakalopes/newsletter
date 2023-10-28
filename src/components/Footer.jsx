@@ -4,8 +4,8 @@ function Footer() {
     <>
     <footer>
         <div className="footer">
-                <p>© lopestalks 2023 • Todos os direitos reservados</p>
-        </div>
+            <p>© lopestalks 2023 • Todos os direitos reservados</p>
+        </div>         
     </footer></>
   )
 }
