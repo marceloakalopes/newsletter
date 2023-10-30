@@ -1,10 +1,12 @@
+import logo from "/new-logo.webp"
+
 function Header() {
   return (
     <>
       <header>
         <div className="container | header">
           <div className="logo">
-            <img src="\new-logo-removebg-preview.webp" alt="" />
+            <img src={logo} alt="" />
           </div>
           <div className="newsletter">
             <h1>Newsletter</h1>

@@ -1,3 +1,5 @@
+import avatar from "/avatar.webp"
+
 function Main() {
   return (
     <>
@@ -25,7 +27,7 @@ function Main() {
             </div>
           </div>
           <div className="even-columns | avatar">
-            <img src="./avatar.webp" alt="" />
+            <img src={avatar} alt="" />
           </div>
         </div>
       </main>
