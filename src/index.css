@@ -2,6 +2,7 @@
   --clr-primary: hsl(50, 100%, 53%);
   --clr-secondary: hsl(0, 0%, 85%);
   --clr-specific: hsl(0, 0%, 42%);
+  --clr-hover: hsl(50, 100%, 42%);
 
   --ff-header: "DM Serif Display", serif;
   --ff-paragraph: "DM Sans", sans-serif;
@@ -121,6 +122,7 @@ input[type="email"]:focus {
 }
 
 .form button {
+  cursor: pointer;
   background-color: var(--clr-primary);
   color: white;
   font-family: var(--ff-paragraph);
@@ -128,6 +130,10 @@ input[type="email"]:focus {
   border: 0;
   border-radius: 10px;
   height: 35px;
+}
+
+.form button:hover {
+  background-color: var(--clr-hover);
 }
 
 .footer {
