@@ -1,5 +1,5 @@
 {
-  "homepage": "https://marceloakalopes.github.io/newsletter",
+  "homepage": "https://lopestalks.com.br",
   "name": "newsletter",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
