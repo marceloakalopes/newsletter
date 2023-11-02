@@ -149,6 +149,12 @@ input[type="email"]:focus {
 }
 
 @media (max-width: 50rem) {
+
+  body {
+    width:100%;
+    padding: 0;
+  }
+
   .container {
     grid-template-columns: 1fr;
   }
@@ -183,5 +189,9 @@ input[type="email"]:focus {
 
   .fit {
     width: 316px;
+  }
+  
+  .avatar img {
+    height: 20rem;
   }
 }
