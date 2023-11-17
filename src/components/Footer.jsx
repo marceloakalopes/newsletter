@@ -1,9 +1,12 @@
 function Footer() {
+
+  const date = new Date();
+
   return (
     <>
       <footer>
         <div className="footer">
-          <p>© lopestalks 2023 • Todos os direitos reservados</p>
+          <p>© lopestalks {date.getFullYear()} • Todos os direitos reservados</p>
         </div>
       </footer>
     </>
@@ -11,3 +14,4 @@ function Footer() {
 }
 
 export default Footer;
+  

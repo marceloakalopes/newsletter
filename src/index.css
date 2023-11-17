@@ -126,7 +126,7 @@ input[type="email"]:focus {
   background-color: var(--clr-primary);
   color: white;
   font-family: var(--ff-paragraph);
-  font-weight: var(--fw-regular);
+  font-weight: bold;
   border: 0;
   border-radius: 10px;
   height: 35px;
